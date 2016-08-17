@@ -1,0 +1,56 @@
+body{text-align: center;
+background-color: black;}
+
+h4{color: white;}
+
+h1{color: white;
+font-family: 'Muli', sans-serif;
+font-size: 70px;
+text-decoration: underline;}
+
+#mainpic{position: relative;
+display: inline-block;
+margin: 0 auto;}
+
+#user{width: 430px;
+height: 30px;}
+
+#com{width: 430px;
+
+height: 80px;}
+
+span{color: green;}
+
+.news{color: white;
+text-align: justify;}
+
+#pictureURL{height: 30px;}
+
+#result{border: 2px double black;
+text-align: left;
+background-color: beige;
+/*padding-right: 80px;
+padding-left: 80px;*/
+display: inline-block;
+clear: both;}
+
+.newColor:nth-child(odd){
+	background-color: white;
+	/*padding-right: 80px;
+	padding-left: 80px;*/
+	display: inline-block;
+	clear: both;
+}
+
+button{background-color: lightblue;
+color: white;
+padding: 10px;
+border-radius: 5px;}
+
+button:hover{background-color: blue;
+	color: white
+cursor: pointer;}
+
+.deletebutton{background-color: white;
+	cursor: pointer;
+color: black;}
